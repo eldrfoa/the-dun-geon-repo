@@ -1,0 +1,45 @@
+imp|h|2,5,2,1
+giant rat|h|1,5,1,0
+ghost|s|3,2,4,3
+human bandit|s|d
+goblin bandit|s|d
+faun bandit|s|d
+feral apiad|s|2,5,2,0
+dog|h|4,4,3,0
+lizardman|h|3,5,4,2
+dragonling|s|6,3,4,3
+arachnid|h|2,5,2,0
+vampire|s|4,4,4,4
+skeleton|h|d
+troll|h|8,1,1,0
+demon|s|d
+snake|h|1,6,1,0
+kobold|s|2,2,4,3
+minotaur|h|7,2,2,0
+
+human|c,c,c,a,t|d
+elf|c,c,a,t|d
+goblin|c,a,t|d
+faun|a,t|d
+airex|c,c,a|d
+apiad|a,c|d
+demon|t,t,c|d
+
+imp|Imp is a small humanoid demon that somwhat resembles a human with bat wings behing his back. Has dark-indigo skin, red eyes and sharp claws.|Usually being summoned by a stronger demon, imp is a small humanoid demon with a bat wings on its back. Has sharp claws that it uses when attacks and piercing red eyes.
+giant rat|Fat, oversized and unspeakably filthy rat, about 3 feet tall. Shabby brown fur with occasional clumps of hair missing, it smelled bad in there.
+ghost|Materialized spirit of a deceased hero, brought back to the mortal world by a terrible spell. Ghosts can be cruel - killing everyove who trespasses, or be reasonable - floating around in eternal sadness.
+human bandit|Regular human whos lived led to the darker path of a robber. Perhaps they found this secured place to stash their stolen goods.
+goblin bandit|Small goblin about half the size of a human. The skin was green as the foliage and pointy ears. Decendant of ancient elf species, no doubt.|Green skin and pointy ears gave out their nature. One of the goblin kind, but leading indecent life of robbing and terrorising other people.
+faun bandit|A bandit faun, leading indecent life. Horned as a bull and wielding a weapon, they wanted to kill hero and loot the body.|Taller than a regular human, faun beared bull- or goat-like horns, with highly furry legs ending with hooves. This particular faun was a fierce bandit.
+feral apiad|Tall, with yellowish, white or dark skin, it was one of the civilizaed apiad species. Not bearinf any wings it seemed, but having large black eyes and slender body.|Feral apiad, a savage or more like a beast, looked angrily with its dark big human-like eyes. Tall and slim and usually armed with a spear, it's protecting its territory.
+dog|Stray and angry dog that tasted human flesh and now it became a predator for it. Hero probably trespassed its territory.
+lizardman|Decendant of reptile species of distant shores. It was an angry lizardman with scaled skin and reptile eyes. It couldn't speak, thou being bipedal and very smart, ever protective of its territory.|Bright-yellow scales, reptile eyes and almost half as tall as a human, lizardman dwelled in that dungeon. Armed only with its sharp claws, it approached the hero.
+dragonling|Decendant of a reptile species from distant land, it was a dragonling. It could understand the common tongue and even tried to form sentences, wore a decrepit clothes and used primitive tools as weapons.
+arachnid|A giant spider, all covered in black fur. Usually had eight to twelve segmented legs and a razor sharp claws by its mouth.|Giant, almost 3 feet tall arachnid with many legs. It feasts on flesh being an agile predator. It seemed that it this place it layed its eggs.
+vampire|A vampire, on of the sentient species inhabiting the World. It was well-dressed and armed, living there in that dungeon.|Photosensetive and having highly prolonged life, vampire lived in this place. Hero's torch immediatedly drove it mad, it looked at him agrily with its red eyes.
+skeleton|Living carcass of a humanoid, raised from the dead by a necromancer and is left to guard this place. There's patches of sinews on the conjunctions of bones, so it can move and even make noises.
+troll|Giant walking mountain of muscles. An ogroid that is very close to the ancient apes. Usually very defensive of its territory.
+demon|The Comet made it's possible for opening of the great Gates to Helath. This is an otherwordly creature with small horns and long tail. Demons are not essentially evil creatures, but can be protective of their territory.|Obsidian skinned traveller of the other world, came to the World for Helath. Has horns and tail, does not shun to eat human flesh.
+snake|Snakes are predator reptiles that can grow up to 20 feet in length. Some snakes grow so huge that they start to hunt down larger prey including humans.
+kobold|Small size, crooked nose and hairy head. Ancestors of kobolds were reptiles and apes. They are not as smart as other reptiles and barely can communicate, prefering lonely life and dark places.
+minotaur|Huge bull-like creature, resembeling faun, with the exception of an actuall bull head. Not as civilizaed as fauns they are wandering in the dark, ever seeking prey.

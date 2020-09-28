@@ -1,0 +1,14 @@
+coward|Coward,Chicken,Timid,Shy,Sheepish,Craven,Faint-Hearted,Fearful
+brave|Brave,Bold,Daring,Valiant,Courageous,Courage,Audacious,Adventerous,Stout,Dare
+decent|Decent,Fair,Humble,Respectable,Proper,Modest,Adequate
+indecent|Indecent,Obscene,Rude,Dirty,Graceless,Bad,Ill-Thoughts
+happy|Smilling,Fortunate,Blissful,Blessed,Joyful,Laughter,Smile,Giggle
+sad|Gloomy,Sad,Sorrowful,Tragic,Melancholic,Frowning,Unhappy,Downcast,Low-spirited,Glum
+honest|Honest,Fair,Honorable,Sincere,Truthful,True,Pure,Just,Frank
+dishonest|Dishonest,Unfair,Foul,Crooked,Dirty,Rascal,Dirt,Crook
+forgiving|Forgiving,Gracious,Benevolent,Gentle,Indulgent,Grace,Kind
+vengeful|Vengeful,Vindicative,Avengeful,Remembering,Punitive,Revenge,Watchful
+smart|Smart,Clever,Intelligent,Brainy,Astute,Witty,Inventive,Sage,Quick-Witted
+unwise|Dimwitted,Silly,Foolish,Dull,Meek,Fool,Goof,Loon,Halfwit
+quiet|Silent,Voiceless,Mute,Muted,Speechless,Quiet,Dead-Silent
+talkative|Big-Mouth,Chattery,Big-Mouthed,Talkative,Gossip,Gabby,Chatty,Lippy,Lip,Mouth

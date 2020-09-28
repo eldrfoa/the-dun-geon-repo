@@ -1,0 +1,12 @@
+human:Peiter,Elex,Haenry,Hoegann,Markan,Theirinn,Hadvald,Weldrinn,Haedann,Bithry,Thedan,Harkald,Bithen,Bestmald,Ristry,Wildkar,Antroan,Segrin,Treadier,Jestim,Ygnyr,Brudde,Davier|Yudith,Dae,Othrynn,Sethy,Odary,Haella,Linareth,Daret,Linin,Lita,Kywana,Odalia,Sona,Everin,Soe,Evnica,Arista,Diamia,Tevynn,Feoria,Kiare,Ladiria,Aelica
+elf:Etherin,Evenglass,Hethli,Vedereth,Kvyndeth,Poethli,Dialeth,Alzurynn,Markvynn,Markath,Hoethynn,Peithri,Harvynn,Maraeth,Farathil,Neathass,Detreth,Kalenegh,Miath,Odrilynn|Alzurinna,Soedvynn,Briganthyn,Aelinna,Sonnakwyn,Liankwyn,Liandvynn,Lianna,Everinna,Etherinna,Aethinna,Perelynn,Kiarynn,Theorinna,Aelycanna,Kiarinna,Fiarynn,Kalanna,KIniarynn,Barinna,Fiolanna,Niawynn
+goblin:Devlin,Harge,Rater,Penter,Chern,Gester,Hadvin,Belte,Irde,Vatlet,Gedner,Britmer,Rezter,Talder,Fazner,Hefger,Oster,Daver,Igne,Jester|Disna,Vitani,Perti,Litrani,Pemeni,Andri,Andra,Egsi,Vargina,Evni,Zuhri,Beneti,Geani,Fedra,Igni,Midri,Windra,Odreni,Ritisi,Ziadri
+faun:Hadar dei,Heeni dei,Qurar dei,Qadar dei,Qeirar dei,Deiar dei,Agdar dei,Fandar dei,Wasdar dei,Yugaar dei|Yudiar daa,Heeni daa,Quidar daa,Qina daa,Pieler daa,Alazar daa,Ladiar daa,Peareeni daa,Jenanaa daa,Tinada daa
+airex:Neim,Wilm,Nik,Hadar,Hinarm,Hogan,Peit,Bitt,Hyulm,Myul,Dool,Vert,Agr,Nekim,Gunarm,Tik,Krest,Gilm,Firdar,Fern|Daaw,Cuun,Yunaw,Silw,Yokuun,Yooda,Liw,Tyw,Poon,Sonnaw,Syuw,Nicuun,Raaw,Yineew,Arunaw,Hannaw,Teruun,Giw,Fyw,Elaaw,Biuw
+apiad:Syx,Perr,Shurr,Kess,Errass,Lex,Pyrr,Fuur,Cix,Zigrrass,Aazix,Uterr|Huss,Harr,Hiax,Xeass,Caarr,Larx,Pax,Fuarr,Neaxx,Iarass,Terarr,Yvurr,Sorarr,Taax,Fassas,Xirrax
+demon:Gunter,Graznig,Zarhorg,Rhihorg,Igter,Barteling,Galantir,Garantir,Wehorg,Mingerot|Lorgux,Rexxus,Hegricka,Gillius,Talricka,Anroux,Lassu,Deafix,Zuranna,Zannura,Minneanecka
+
+human:of Nо̄eta,of Botho,of Hanle,of Fenn,of Dethmold,of Hо̄edr,of Sarr,of Twaedir,of Polod,of Yanico,of Goldplace,Tcar,Weldwin,Koets,Lints,Rexler,Satar
+elf:of Nо̄eta,of Botho,of Hanle,Eventill,Alzurill,Peithvill,Laritvill,Weiterill
+goblin:Wildstras,Tertas,Zaksmold,Fildstrex
+airex:of Cross,of Fenn,of Dethmold,of Hо̄edr

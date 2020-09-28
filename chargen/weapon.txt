@@ -1,0 +1,39 @@
+bone|n|1
+sharpened stick|n|1
+cane|n|1
+knife|m|1
+slingshot|o|1
+dagger|m|3
+pitchfork|m|2
+wooden spear|m|2
+shovel|m|2
+scythe|m|3
+hammer|n|3
+ax|m|3
+shortbow|o|3
+sling|o|4
+
+battle pick|m|4
+short sword|m|4
+cleaver|m|4
+warhammer|n|5
+gladius|m|5
+battle ax|m|5
+spatha|m|6
+bow|n|5
+
+falchion|m|7
+rapier|m|7
+bastard sword|m|7
+saber|m|7
+spear|m|7
+mace|n|8
+messer|m|8
+longbow|o|8
+
+great sword|m|9
+heavy warhammer|m|9
+poleaxe|m|9
+polehammer|n|10
+pike|m|10
+two-handed sword|m|10

@@ -1,0 +1,5 @@
+table,chair,armchair,stool,wardrobe,end table,bookshelf
+tables,chairs,armchairs,stools,wardrobes,end tables,bookshelves
+spoon,mug,fire iron,rack,stone,empty bottle
+spoons,mugs,fire irons,racks,stones,empty bottles
+hand,arm,foot,leg,stomack,side,elbow,spine,back,bottom,chest,cheek,head

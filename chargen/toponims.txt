@@ -1,0 +1,5 @@
+Kingdom of Alzuria,Alzuria|Verata,Nõeta,Botho,Hanle,Bissma,Evercity
+Kingdom of Hõeginn,Hõeginn,The Scar|Cross,Fenn-town,Dethmold,Hõedr,Sarr,Silvis
+Empire of Throne,Throne Empire,Empire,Burning Empire|Throne,Caracalla,Twaedir,Polod,Goldplace,Yanvick,Coatter
+
+Blackened,Whispering,Mystic,Dark,Looming,Shadowy,Illusory,Phantom,Crushing,Decieving,Howling,Grievous

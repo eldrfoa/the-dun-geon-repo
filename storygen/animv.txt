@@ -1,0 +1,3 @@
+named,by the name,some call,known as,people call,with the name
+smilling,grinning,winking,nodding,giggling
+smilled,grinned,winked,nodded,giggled

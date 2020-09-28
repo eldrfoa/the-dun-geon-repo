@@ -1,0 +1,4 @@
+wooden,steel,dirty,covered in dirt,broken,covered in dirt
+gloomy,scary,forgotten,mystic
+wooden,steen,cracked,rusty,rickety,shaky,creaky
+old,forgotten,covered in cobwebs,dirty,ancient,covered in dirt,broken,antique

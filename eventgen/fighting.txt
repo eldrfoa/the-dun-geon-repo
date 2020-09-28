@@ -1,0 +1,43 @@
+[char] hits [creat] with [charpp] [charwo].
+[char] swings [charpp] [charws] at [creat] and lands a hit.
+
+[char] shoots [creat] with a [charwo].
+Hero leaps to the side and shoots [creat] with a [charwo].
+Holding tightly to [charpp] [charws], [charp] shoots [creat].
+
+Hero tries to hit [creat] with [charpp] [charwo], but misses.
+[char] swings [charpp] [charws] but misses.
+
+Hero shoots out of [charpp] [charws], but misses. Projectile flies [num] inches too right.
+Shooting from [charpp] [charws], [char] misses, grunting dissapointedly.
+
+[creat] leaps forward attacking [char], the blood is spieled.
+[char] tries to jump back, but [creat] gets [charpr], injuring [charpp] [bod].
+[creat] attacks [char] damaging [charpp] [bod].
+
+[creat] goes for [char]'s [bod], but hero leaps away.
+Trying to damage [char]'s [bod], [creat] misses greately, giving [char] an opportunity.
+Hissing with hatred [creat] goes for [char]'s [bod], but [char] evades attack.
+
+Preparing to attack [creat] [char] sees how it damages [com]'s [bod]. [comr] lets out a cry.
+
+[creat] focuses on [char]'s companion - [com], attacks [compr], but misses.
+Dueling with [com] [creat] leaps forward, but can't land a hit.
+
+[com] jumps forward, slashing [creat] with [compp] [comw]. [creat] squeals in pain.
+
+Falling behind, [com] takes aim and shoots [creat]'s [bod].
+
+[com] tries to slash [creat] but misses with [compr] [comw].
+
+[com] takes aim, but can't hit [creat] and misses.
+
+[creat] kills [char]'s ally [com]. [compp] breathless body hits the floor. Blood spills and fills the cracks of the dungeon floor. [char] alone now. All alone.
+Great wounds finally get [com], [comp] falls on [compr] knees, leting out [compr] last breath. Then hits the floor. [char] must fight alone now.
+
+Terrible wounds from [creat]'s attacks bled [char] dry. [charp] fell down, with [charpp] [charwo] rolling away from [charpp] hands.
+
+[creat] bled out and it's breathless body fell on the floor.
+Overwhelmed with grievous wounds, [creat] lets out its last screech and dies.
+Slowly. Gently. This is how life leaves the [creat]'s body.
+[creat] couldn't best the hero, its body lies on the floor.

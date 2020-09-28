@@ -1,0 +1,7 @@
+coward,brave
+decent,indecent
+happy,sad
+honest,dishonest
+forgiving,vengeful
+smart,unwise
+quiet,talkative

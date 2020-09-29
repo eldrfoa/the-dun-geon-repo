@@ -628,7 +628,7 @@ def replacingcom(story, creature):   # replacing tags containing creatures or ot
     story = story.replace("[compr]", creature.pronouns[1])
     story = story.replace("[compp]", creature.pronouns[2])
     story = story.replace("[comr]", creature.race)
-    story = story.replace("[comw]", creature.weapon[0])
+    story = story.replace("[comw]", creature.weapon)
     return story
 
 
@@ -1077,7 +1077,7 @@ def BossFight(mainchar, playdict):
             else:
                 comp.pronouns = ["she", "her", "he"]
             comp.race = mainchar.companion[3]
-            comp.weapon = mainchar.companion[4]
+            comp.weapon = mainchar.companion[4][0]
             while mainchar.lives > 0:
                 if mainchar.lives < 20:
                     if "health potion" in mainchar.inv:
@@ -1227,11 +1227,11 @@ def epilogue(mainchar, playdict, result):
 
 
 if __name__ == "__main__":
-    print("Written by eldrfoa. Version 1.0\n")
+    print("Written by eldrfoa. Version 1.1\n")
     playdict = importStories()
     mainchar = createChar(playdict)
     prologue(mainchar, playdict)
-    f = input(f"Press Enter after each sentence while venturint into the {playdict['dun']} dungeon. When inputing a command you can enter only the first letter.\n ")
+    f = input(f"Press Enter after each sentence while wandering in the {playdict['dun']} Dungeon. When inputing a command you can enter only the first letter.\n ")
     randomn = random.randint(6, 10)
     for i in range(randomn):
         sentences(mainchar, playdict)

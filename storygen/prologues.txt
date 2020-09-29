@@ -19,7 +19,7 @@ Being born in [chart], the town of [chartt], [charp] left it to set out on an ad
 Never looking back [char] left [charpp] hometown of [chart], [chartt].
 [charp] was born in a fine place [name] [chart], which was a city of [chartt] or as others call it [charttt].
 [charp] was a [charg] of [chartt] being born in [chart]. It was [charpp] hometown, even though [char] would eventually leave it.
-To others however [char] was known as [char] of [chart]. It was [chart] was a name of [charpp] hometown.
+To others however [char] was known as [char] of [chart]. It was a name of [charpp] hometown.
 You probably wondering - what made [char] leave the hometown of [chart] and went on adventuring. The story tell us following.
 Proud [charg] of [chart], the town of [chartt], [char] lived [charpp] whole life there.
 Adventures awaited [char] who had left [charpp] hometown of [chart]. [chart] was of course a town of [chartt] - one of the great kingdoms of that age.
@@ -49,6 +49,9 @@ treasurer|[char] worked at the city hall, where [charp] was a treasurer. Account
 wanderlust|[char] wanted to set out on an andventure, because simple life seemed dull to [charpr].|The monotonouse everyday life of a [charo] was killing [charpr]. [charp] was trying to come up with a reason to leave.
 loss of a loved one|They say that [char] had lost the love of [charpp] life. Colors of everyday life faded away, and [char] couldn't live with this loss. [charp] promised [charpr]self that [charp] would find whoever did this and avenge [charpp] loved one's death!
 loss of a friend|You probably wondering why [charp] went away in the first place? That's because [char] lost someone valuable, [charpp] best friend. And [char] swore to avenge it.
+destiny|All [charpp] live [char] thought that [charp] was destened for great things. Once [charp] went to the fair's fortune-teller. They told [charpr] that [charpp] destiny is to kill a great beast and become a hero.
+princess|Wondering why [charp] went away from his home? Well, this is alove story. [char] fell in love with someone from the royal family of [chartt]. [charpp] beloved demaded a proof for [charpp] undying love.
+famelust|Since [char] was a kid, [charp] always wanted to be famous. Make people wonder at [charpp] heroic deeds, make them all love [charpr].|Heroes and stories of old facinated [char], [charp] dreamt of being rich and famous and be a hero of [charpp] own story.
 
 People had rumored about this foul being, that dwelled in the shadows of the [dun] Dungeon.
 There was something dwelling in the dark corridors of the [dun] Dungeon. [char] [chara1] found out about it from someone in the tavern.
@@ -58,6 +61,9 @@ People in [chart] spoke of a foul thing that lived in the [dun] Dungeon.
 wanderlust|Facinated by the promise of glory and trasures, [char] took this chance, willing to stop this monster. Monster by the name [nemr].|They say that the name of the beast was [nemr]. Oh, the thrill in [char] when [charp] thought about slaughtering the beast and becoming a hero.
 loss of a loved one|From the rumors [charp] found out that this monster was in fact the one that slaughtered [char]'s loved one. The creature they called [nemr].
 loss of a friend|Rumors told that the thing's name was [nemr] just like the one that killed [char]'s friend!
+destiny|[char] immediately thought that it was fated for [charpr] to slay that beast.|Believing in [charpp] fate, [char] decided to went away and beat the beast.
+princess|Beain a little foolhardy, [char] decided to kill the beast to prove [charpp] love.|Giving a good thought to it (or maybe not giving good enough), [char] decided to slay the beast to win the affection of [charpp] royal sweetheart.
+famelust|[char] believed that slaying such dreaded beast would make him the most famous person on the Continent.|Hungry for fame and riches, [char] believed that killing that creature would bring [charpr] some.
 
 fisher|Being at the time a simple fisher, [char] had to grab first that [charp] could find. They say it was [charw], that [charp] armed [charpr]self with.
 smith|As the town's smith [char] had access to a variety of high quality weaponry. So one day [charp] took [charw] from a stand in the smithy and went away.
@@ -83,3 +89,5 @@ aristocrat|Decided to set out on an adventure, [charp] left [charpp] wealthy man
 treasurer|One of the crown's treasurer could afford a proper weapon from on of the best shops in the city. [char] armed [charpr]self with a [charw].
 
 And so [char] [chara1] set out on a journey, holding tightly onto [charpp] trusty [charws] and having [charc] gold in [charpp] purse. The road ahead was dangerous, but [char]'s heart was full of determination and hope.
+And just like that, [char] set out on a journey. Armed with [charw] and holding [charc] gold in his purse, [charp] went away being ready for anything.
+This how [char]'s adventure began. Holding onto [charpp] trusty [charws], with [charc] gold coins, [charp] went on the big road. Travelling to the [dun] Dungeon. Adventure awaited [charpr].

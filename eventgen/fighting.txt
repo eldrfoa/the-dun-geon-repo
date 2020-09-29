@@ -1,5 +1,7 @@
 [char] hits [creat] with [charpp] [charwo].
 [char] swings [charpp] [charws] at [creat] and lands a hit.
+Grunting and swinging [charpp] [charwo], [charp] lands a hit on [creat]'s body, blood is spilled.
+Fighting with great passion, [char] hits [creat] with [charpp] [charwo].
 
 [char] shoots [creat] with a [charwo].
 Hero leaps to the side and shoots [creat] with a [charwo].
@@ -7,9 +9,11 @@ Holding tightly to [charpp] [charws], [charp] shoots [creat].
 
 Hero tries to hit [creat] with [charpp] [charwo], but misses.
 [char] swings [charpp] [charws] but misses.
+[char]'s confidence fades as [charp] hits the air with [charpp] [charws], missing [creat].
 
 Hero shoots out of [charpp] [charws], but misses. Projectile flies [num] inches too right.
 Shooting from [charpp] [charws], [char] misses, grunting dissapointedly.
+[char] quickly takes aim and shoots, but [creat] dodges the attack.
 
 [creat] leaps forward attacking [char], the blood is spieled.
 [char] tries to jump back, but [creat] gets [charpr], injuring [charpp] [bod].
@@ -20,17 +24,27 @@ Trying to damage [char]'s [bod], [creat] misses greately, giving [char] an oppor
 Hissing with hatred [creat] goes for [char]'s [bod], but [char] evades attack.
 
 Preparing to attack [creat] [char] sees how it damages [com]'s [bod]. [comr] lets out a cry.
+[creat] moves fast and hits [com]'s [bod]. [comp] takes a stem back, covering the wound.
+As [com] gets closer to [creat] to take a better position, it hits [compr], injuring [bod].
 
 [creat] focuses on [char]'s companion - [com], attacks [compr], but misses.
 Dueling with [com] [creat] leaps forward, but can't land a hit.
 
 [com] jumps forward, slashing [creat] with [compp] [comw]. [creat] squeals in pain.
+Jumping from the [char]'s flank, [com] hits [creat] with [compr] [comw].
+Grippint onto [compr] [comw], [com] hits [creat]'s body.
 
 Falling behind, [com] takes aim and shoots [creat]'s [bod].
+Taking a steady aim, [com] shoots [creat]'s body. It squirms in pain.
+[com] aims with [compr] [comw] and shoots [creat]. Bull's eye!
 
 [com] tries to slash [creat] but misses with [compr] [comw].
+Wielding [compr] [comw], [com] slashes the air, missing [creat]'s head.
+Holding [compr] [comw], [com] thrusts forward, but can't hit [creat].
 
 [com] takes aim, but can't hit [creat] and misses.
+Holding [compr] [comw] tightly. [com] shoots, but misses greatly.
+Trying to shoot [creat] down, [com] misses and grunts in dissapointment.
 
 [creat] kills [char]'s ally [com]. [compp] breathless body hits the floor. Blood spills and fills the cracks of the dungeon floor. [char] alone now. All alone.
 Great wounds finally get [com], [comp] falls on [compr] knees, leting out [compr] last breath. Then hits the floor. [char] must fight alone now.

@@ -1227,7 +1227,7 @@ def epilogue(mainchar, playdict, result):
 
 
 if __name__ == "__main__":
-    print("Written by eldrfoa. Version 1.1\n")
+    print("Written by eldrfoa. Version 1.1.1\n")
     playdict = importStories()
     mainchar = createChar(playdict)
     prologue(mainchar, playdict)

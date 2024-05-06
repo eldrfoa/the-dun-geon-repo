@@ -628,7 +628,7 @@ def replacingcom(story, creature):   # replacing tags containing creatures or ot
     story = story.replace("[compr]", creature.pronouns[1])
     story = story.replace("[compp]", creature.pronouns[2])
     story = story.replace("[comr]", creature.race)
-    story = story.replace("[comw]", creature.weapon)
+    story = story.replace("[comw]", creature.weapon[0])
     return story
 
 
@@ -1227,7 +1227,7 @@ def epilogue(mainchar, playdict, result):
 
 
 if __name__ == "__main__":
-    print("Written by eldrfoa. Version 1.1.1\n")
+    print("Written by HidingFox. Version 1.1.2\n")
     playdict = importStories()
     mainchar = createChar(playdict)
     prologue(mainchar, playdict)

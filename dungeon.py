@@ -82,7 +82,7 @@ def createChar(playdict):
         mainchar.gender = "woman"
         mainchar.pronouns = ["she", "her", "her"]
     else:
-        mainchar.name = random.choice(names[2].split("\n"))
+        mainchar.name = random.choice(names[random.randint(0,1)].split("\n"))
         mainchar.gender = "person"
         mainchar.pronouns = ["they", "them", "their"]
     traits = open("chargen/traits.txt", 'r').read()

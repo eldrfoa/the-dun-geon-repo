@@ -993,10 +993,10 @@ def evMeeting(mainchar, playdict):
                                             print("Not enough money.")
                                             break
                                     if wares[c-1] == "intellect potion":
-                                        if mainchar.gold >= 30:
+                                        if mainchar.gold >= 20:
                                             mainchar.inv.append("intellect potion")
                                             wares.remove("intellect potion")
-                                            mainchar.gold -= 30
+                                            mainchar.gold -= 20
                                             print(mainchar.name, "purchased intellect potion.")
                                             bought = True
                                             break
@@ -1015,10 +1015,10 @@ def evMeeting(mainchar, playdict):
                                             print("Not enough money.")
                                             break
                                     if wares[c-1] == "experience potion":
-                                        if mainchar.gold >= 30:
+                                        if mainchar.gold >= 40:
                                             mainchar.inv.append("experience potion")
                                             wares.remove("experience potion")
-                                            mainchar.gold -= 30
+                                            mainchar.gold -= 40
                                             print(mainchar.name, "purchased experience potion.")
                                             bought = True
                                             break

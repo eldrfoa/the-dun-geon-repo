@@ -9,7 +9,7 @@ wooden spear|m|2
 shovel|m|2
 scythe|m|3
 hammer|n|3
-ax|m|3
+axe|m|3
 shortbow|o|3
 sling|o|4
 

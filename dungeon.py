@@ -468,7 +468,6 @@ def HealSelf():
                             mainchar.inv.remove("experience potion")
                             mainchar.exp += 25
                             print(mainchar.name, "drank the experience potion. Shortly after that,", mainchar.pronouns[0], "felt more experienced.")
-                            checkLevel(mainchar)
                             break
                         else:
                             print("It has no use in the dungeon.")
@@ -478,6 +477,7 @@ def HealSelf():
         else:
             print("There's nothing in the inventory.")
             break
+    checkLevel(mainchar)
 
 
 def HealComp():
@@ -1009,6 +1009,17 @@ def evMeeting(mainchar, playdict):
                                             wares.remove("charisma potion")
                                             mainchar.gold -= 30
                                             print(mainchar.name, "purchased charisma potion.")
+                                            bought = True
+                                            break
+                                        else:
+                                            print("Not enough money.")
+                                            break
+                                    if wares[c-1] == "experience potion":
+                                        if mainchar.gold >= 30:
+                                            mainchar.inv.append("experience potion")
+                                            wares.remove("experience potion")
+                                            mainchar.gold -= 30
+                                            print(mainchar.name, "purchased experience potion.")
                                             bought = True
                                             break
                                         else:

@@ -1,8 +1,8 @@
 coward|Coward,Chicken,Timid,Shy,Sheepish,Craven,Faint-Hearted,Fearful
-brave|Brave,Bold,Daring,Valiant,Courageous,Courage,Audacious,Adventerous,Stout,Dare
+brave|Brave,Bold,Daring,Valiant,Courageous,Courage,Audacious,Adventurous,Stout,Dare
 decent|Decent,Fair,Humble,Respectable,Proper,Modest,Adequate
 indecent|Indecent,Obscene,Rude,Dirty,Graceless,Bad,Ill-Thoughts
-happy|Smilling,Fortunate,Blissful,Blessed,Joyful,Laughter,Smile,Giggle
+happy|Smiling,Fortunate,Blissful,Blessed,Joyful,Laughter,Smile,Giggle
 sad|Gloomy,Sad,Sorrowful,Tragic,Melancholic,Frowning,Unhappy,Downcast,Low-spirited,Glum
 honest|Honest,Fair,Honorable,Sincere,Truthful,True,Pure,Just,Frank
 dishonest|Dishonest,Unfair,Foul,Crooked,Dirty,Rascal,Dirt,Crook

@@ -1,5 +1,6 @@
 import random
 import math
+from datetime import datetime
 
 
 class Atribbutes:
@@ -21,6 +22,9 @@ class Atribbutes:
     inv = []
     companion = ""
     companiondied = False
+    exp = 0
+    expcap = 50
+    level = 1
 
 
 class Meeting:
@@ -33,19 +37,54 @@ class Meeting:
     stats = []
 
 
+def levelUp(mainchar):
+    print("Level up!\nPick a stat to improve:")
+    while True:
+        a = input(f"\n 1 - STR ({mainchar.stats[0]})\n 2 - AGI ({mainchar.stats[1]})\n 3 - INT ({mainchar.stats[2]})\n 4 - CHA ({mainchar.stats[3]}).\n")
+        if a == "1":
+            mainchar.stats[0] += 1
+            break
+        elif a == "2":
+            mainchar.stats[1] += 1
+            break
+        elif a == "3":
+            mainchar.stats[2] += 1
+            break
+        elif a == "4":
+            mainchar.stats[3] += 1
+            break
+        else:
+            print("Wrong input.")
+
+
+def checkLevel(mainchar):
+    while True:
+        if mainchar.exp >= mainchar.expcap:
+            levelUp(mainchar)
+            mainchar.exp = 0
+            mainchar.expcap += 15
+            mainchar.level += 1
+        else:
+            break
+
+
 def createChar(playdict):
     names = open("chargen/names.txt", 'r').read()
     names = names.split("\n\n")
-    genderc = random.randint(1, 2)
+    genderc = random.randint(1, 3)
     mainchar = Atribbutes()
     if genderc == 1:
         mainchar.name = random.choice(names[0].split("\n"))
         mainchar.gender = "man"
         mainchar.pronouns = ["he", "him", "his"]
-    else:
+    elif genderc == 2:
         mainchar.name = random.choice(names[1].split("\n"))
         mainchar.gender = "woman"
         mainchar.pronouns = ["she", "her", "her"]
+    else:
+        mainchar.name = random.choice(names[2].split("\n"))
+        mainchar.gender = "person"
+        mainchar.pronouns = ["they", "them", "their"]
     traits = open("chargen/traits.txt", 'r').read()
     traits = traits.split("\n")
     twotraits = []
@@ -357,7 +396,7 @@ def Enemyinput(creaturelives, creatstats, creatures, anger):
 
 
 def Stat():
-    print(f"{mainchar.name} {mainchar.aliases[0]}. \nHealth: {mainchar.lives}. Stats: STR {mainchar.stats[0]}, AGI {mainchar.stats[1]}, INT {mainchar.stats[2]}, CHA {mainchar.stats[3]}. Wielding {mainchar.weapon[3]} {mainchar.weapon[0]}. There's {mainchar.gold} gold coins in {mainchar.pronouns[2]} purse.", end=" ")
+    print(f"{mainchar.name} {mainchar.aliases[0]}. \nHealth: {mainchar.lives}. Stats: STR {mainchar.stats[0]}, AGI {mainchar.stats[1]}, INT {mainchar.stats[2]}, CHA {mainchar.stats[3]}. Level {mainchar.level} hero. Exp: {mainchar.exp}/{mainchar.expcap}. Wielding {mainchar.weapon[3]} {mainchar.weapon[0]} ({mainchar.weapon[2] + mainchar.weapon[5]} ATK). There's {mainchar.gold} gold coins in {mainchar.pronouns[2]} purse.", end=" ")
     if len(mainchar.inv) != 0:
         print("Inventory:", mainchar.inv, end=".\n")
     else:
@@ -408,22 +447,28 @@ def HealSelf():
                         elif mainchar.inv[c - 1] == "agility potion":
                             mainchar.inv.remove("agility potion")
                             mainchar.stats[1] += 1
-                            print(mainchar.name, "drank agility potion. Shortly after that,", mainchar.pronouns[0], "felt more agile. AGI now:", mainchar.stats[1])
+                            print(mainchar.name, "drank the agility potion. Shortly after that,", mainchar.pronouns[0], "felt more agile. AGI now:", mainchar.stats[1])
                             break
                         elif mainchar.inv[c - 1] == "strength potion":
                             mainchar.inv.remove("strength potion")
                             mainchar.stats[0] += 1
-                            print(mainchar.name, "drank strength potion. Shortly after that,", mainchar.pronouns[0], "felt stronger. STR now:", mainchar.stats[0])
+                            print(mainchar.name, "drank the strength potion. Shortly after that,", mainchar.pronouns[0], "felt stronger. STR now:", mainchar.stats[0])
                             break
                         elif mainchar.inv[c - 1] == "intellect potion":
                             mainchar.inv.remove("intellect potion")
                             mainchar.stats[2] += 1
-                            print(mainchar.name, "drank intellect potion. Shortly after that,", mainchar.pronouns[0], "felt smarter. INT now:", mainchar.stats[2])
+                            print(mainchar.name, "drank the intellect potion. Shortly after that,", mainchar.pronouns[0], "felt smarter. INT now:", mainchar.stats[2])
                             break
                         elif mainchar.inv[c - 1] == "charisma potion":
                             mainchar.inv.remove("charisma potion")
                             mainchar.stats[3] += 1
-                            print(mainchar.name, "drank charisma potion. Shortly after that,", mainchar.pronouns[0], "felt more eloquent. CHA now:", mainchar.stats[3])
+                            print(mainchar.name, "drank the charisma potion. Shortly after that,", mainchar.pronouns[0], "felt more eloquent. CHA now:", mainchar.stats[3])
+                            break
+                        elif mainchar.inv[c - 1] == "experience potion":
+                            mainchar.inv.remove("experience potion")
+                            mainchar.exp += 25
+                            print(mainchar.name, "drank the experience potion. Shortly after that,", mainchar.pronouns[0], "felt more experienced.")
+                            checkLevel(mainchar)
                             break
                         else:
                             print("It has no use in the dungeon.")
@@ -475,23 +520,25 @@ def HealComp():
                         elif mainchar.inv[c - 1] == "agility potion":
                             mainchar.inv.remove("agility potion")
                             mainchar.companion[5][1] += 1
-                            print(f"{mainchar.name} gave agility potion to {mainchar.companion[0]}. After drinking that, {mainchar.companion[0]} felt agile. INT now: {mainchar.companion[5][1]}")
+                            print(f"{mainchar.name} gave the agility potion to {mainchar.companion[0]}. After drinking that, {mainchar.companion[0]} felt agile. INT now: {mainchar.companion[5][1]}")
                             break
                         elif mainchar.inv[c - 1] == "strength potion":
                             mainchar.inv.remove("strength potion")
                             mainchar.companion[5][0] += 1
-                            print(f"{mainchar.name} gave strength potion to {mainchar.companion[0]}. After drinking that, {mainchar.companion[0]} felt stronger. INT now: {mainchar.companion[5][0]}")
+                            print(f"{mainchar.name} gave the strength potion to {mainchar.companion[0]}. After drinking that, {mainchar.companion[0]} felt stronger. INT now: {mainchar.companion[5][0]}")
                             break
                         elif mainchar.inv[c - 1] == "intellect potion":
                             mainchar.inv.remove("intellect potion")
                             mainchar.companion[5][2] += 1
-                            print(f"{mainchar.name} gave intellect potion to {mainchar.companion[0]}. After drinking that, {mainchar.companion[0]} felt smarter. INT now: {mainchar.companion[5][2]}")
+                            print(f"{mainchar.name} gave the intellect potion to {mainchar.companion[0]}. After drinking that, {mainchar.companion[0]} felt smarter. INT now: {mainchar.companion[5][2]}")
                             break
                         elif mainchar.inv[c - 1] == "charisma potion":
                             mainchar.inv.remove("charisma potion")
                             mainchar.companion[5][3] += 1
-                            print(f"{mainchar.name} gave charisma potion to {mainchar.companion[0]}. After drinking that, {mainchar.companion[0]} felt eloquent. INT now: {mainchar.companion[5][3]}")
+                            print(f"{mainchar.name} gave the charisma potion to {mainchar.companion[0]}. After drinking that, {mainchar.companion[0]} felt eloquent. INT now: {mainchar.companion[5][3]}")
                             break
+                        elif mainchar.inv[c - 1] == "experience potion":
+                            print(f"{mainchar.companion[0]}'s beliefs won't allow them to drink that.")
                         else:
                             print("It has no use in the dungeon.")
                         break
@@ -548,17 +595,22 @@ def sentences(mainchar, playdict):
     roll = random.randint(1, 20)
     if roll <= 10:
         result = evFighting(mainchar, playdict)
+        mainchar.exp += random.randint(10, 40)
     elif 10 < roll <= 15:
         evMeeting(mainchar, playdict)
+        mainchar.exp += random.randint(2, 7)
     elif 15 < roll <= 18:
         column = sentences[11].split("\n")
         story = random.choice(column)
         print(replacing(story), end="")
         cont = input()
         evWeapon()
+        mainchar.exp += random.randint(5, 10)
     else:
         evChest()
+        mainchar.exp += random.randint(3, 8)
     if mainchar.lives > 0 and result == "w":
+        checkLevel(mainchar)
         Safeinput()
     print("\n", end="")
 
@@ -663,8 +715,10 @@ def evFighting(mainchar, playdict):    # fighting event
                     comp.name = mainchar.companion[0]
                     if mainchar.companion[1] == "m":
                         comp.pronouns = ["he", "him", "his"]
-                    else:
+                    elif mainchar.companion[1] == "f":
                         comp.pronouns = ["she", "her", "her"]
+                    else:
+                        comp.pronouns = ["they", "them", "their"]
                     comp.race = mainchar.companion[3]
                     comp.weapon = mainchar.companion[4][0]
                     while mainchar.lives > 0:
@@ -781,7 +835,7 @@ def evMeeting(mainchar, playdict):
     creatures = creatures[1].split("\n")
     creatures = random.choice(creatures)
     creature = Meeting()
-    creature.gender = random.choice(["m", "f"])
+    creature.gender = random.choice(["m", "f", "n"])
     creature.race = creatures.split("|")[0]
     creature.stats = [random.randint(1, 6), random.randint(1, 6), random.randint(1, 6), random.randint(1, 6)]
     creature.weapon = pickWeapon(random.randint(2, 3))
@@ -815,6 +869,21 @@ def evMeeting(mainchar, playdict):
                 nam = random.choice(nam.split(","))
                 creature.name = creature.name + " " + nam
                 break
+    elif creature.gender == "n":
+        nam = playdict["charnames"][0].split("\n")
+        creature.pronouns = ["they", "them", "their"]
+        for i in nam:
+            if i.split(":")[0] == creatures.split("|")[0]:
+                nam = i.split(":")[1].split("|")[random.randint(0,1)]
+                break
+        creature.name = random.choice(nam.split(","))
+        nam = playdict["charnames"][1].split("\n")
+        for i in nam:
+            if i.split(":")[0] == creatures.split("|")[0]:
+                nam = i.split(":")[1]
+                nam = random.choice(nam.split(","))
+                creature.name = creature.name + " " + nam
+                break
     relation = random.choice(creatures.split("|")[1].split(","))
     sentences = open("storygen/sentences.txt", 'r').read()
     sentences = sentences.split("\n\n")
@@ -838,7 +907,7 @@ def evMeeting(mainchar, playdict):
         bought = False
         wares = []
         for i in range(random.randint(3, 8)):
-            wares.append(random.choice(["health potion", "medicinal herb", "agility potion", "strength potion", "intellect potion", "charisma potion"]))
+            wares.append(random.choice(["health potion", "medicinal herb", "agility potion", "strength potion", "intellect potion", "charisma potion", "experience potion"]))
         ranweap = pickWeapon(random.randint(2,3))
         wares.append(f"{ranweap[3]} {ranweap[0]}")
         while True:
@@ -849,19 +918,21 @@ def evMeeting(mainchar, playdict):
                     for i in wares:
                         print(str(num) + ".", i, end=" ")
                         if i == "health potion":
-                            print("15 g.")
+                            print("- 15 g.")
                         elif i == "medicinal herb":
-                            print("5 g.")
+                            print("- 5 g.")
                         elif i == "agility potion":
-                            print("35 g.")
+                            print("- 35 g.")
                         elif i == "strength potion":
-                            print("25 g.")
+                            print("- 25 g.")
                         elif i == "intellect potion":
-                            print("30 g.")
+                            print("- 20 g.")
                         elif i == "charisma potion":
-                            print("30 g.")
+                            print("- 30 g.")
+                        elif i == "experience potion":
+                            print("- 40 g.")
                         elif i == f"{ranweap[3]} {ranweap[0]}":
-                            print(ranweap[6], "g.")
+                            print(f"({mainchar.weapon[2] + mainchar.weapon[5]} ATK) - {ranweap[6]} g.")
                         num += 1
                     c = input(f"Character has {mainchar.gold} gold. Enter an item's number to purchase it. Or \"quit\" to exit.  -> ")
                     if c == "q" or c == "quit":
@@ -948,7 +1019,7 @@ def evMeeting(mainchar, playdict):
                                             mainchar.gold -= ranweap[6]
                                             wares.remove(f"{ranweap[3]} {ranweap[0]}")
                                             mainchar.weapon = ranweap
-                                            print(f"{mainchar.name} purchased {ranweap[4]} {ranweap[3]} {ranweap[0]} for {ranweap[6]} gold and his old weapon.")
+                                            print(f"{mainchar.name} traded {ranweap[4]} {ranweap[3]} {ranweap[0]} for {ranweap[6]} gold and {mainchar.pronouns[2]} old weapon.")
                                             bought = True
                                             break
                                         else:
@@ -1220,19 +1291,24 @@ def epilogue(mainchar, playdict, result):
         bonus = 0
         if mainchar.companion != "":
             bonus += 50
-        print(f"{mainchar.name}'s gold: {mainchar.gold}")
-        print("Final score:", mainchar.gold + mainchar.weapon[6] + bonus + (len(mainchar.inv) * 5), "\n-----------------------")
+        score = mainchar.gold + mainchar.weapon[6] + bonus + (len(mainchar.inv) * 5) + (mainchar.level * 50) + mainchar.exp
+        print(f"{mainchar.name}'s gold: {mainchar.gold}. Level {mainchar.level}")
+        print(f"Final score: {score}!\n-----------------------")
+        file = open('highscores.txt', 'a+')
+        file.write(f"{datetime.now().strftime('%Y-%m-%d %H:%M')}   {mainchar.name} {mainchar.aliases[0]} - {score}")
+        file.write("\n")
+        file.close()
     else:
         print("Final score: 0.\n-----------------------")
 
 
 if __name__ == "__main__":
-    print("Written by HidingFox. Version 1.1.2\n")
+    print("Written by HidingFox. Version 1.2\n")
     playdict = importStories()
     mainchar = createChar(playdict)
     prologue(mainchar, playdict)
     f = input(f"Press Enter after each sentence while wandering in the {playdict['dun']} Dungeon. When inputing a command you can enter only the first letter.\n ")
-    randomn = random.randint(6, 10)
+    randomn = random.randint(8, 12)
     for i in range(randomn):
         sentences(mainchar, playdict)
     result = "l"

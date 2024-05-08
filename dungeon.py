@@ -932,7 +932,7 @@ def evMeeting(mainchar, playdict):
                         elif i == "experience potion":
                             print("- 40 g.")
                         elif i == f"{ranweap[3]} {ranweap[0]}":
-                            print(f"({mainchar.weapon[2] + mainchar.weapon[5]} ATK) - {ranweap[6]} g.")
+                            print(f"({ranweap[2] + ranweap[5]} ATK) - {ranweap[6]} g.")
                         num += 1
                     c = input(f"Character has {mainchar.gold} gold. Enter an item's number to purchase it. Or \"quit\" to exit.  -> ")
                     if c == "q" or c == "quit":
